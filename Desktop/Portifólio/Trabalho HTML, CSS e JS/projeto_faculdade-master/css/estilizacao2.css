@@ -15,9 +15,9 @@
 
 body {
     font-family: 'Raleway', Droid Sans, Lobster, Droid Serif;
-    max-width: 1280px;
-    margin: auto;
+    max-width: 1345px;
 }
+
 
 header a:hover {
     color: #999 !important;
