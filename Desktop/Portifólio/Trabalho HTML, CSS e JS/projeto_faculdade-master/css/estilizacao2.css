@@ -1,0 +1,93 @@
+.imagem_levantando, .imagem_levantando2, .imagem_levantando3, .imagem_levantando4, .imagem_levantando5, #itensParaCompra{
+    overflow: hidden;
+    cursor: pointer;
+}
+ 
+.imagem_levantando img, .imagem_levantando2 img, .imagem_levantando3 img, .imagem_levantando4 img, .imagem_levantando5 img, #itensParaCompra img{
+    -webkit-transition: -webkit-transform .2s ease;
+    transition: transform .5s ease;
+}
+ 
+.imagem_levantando:hover img, .imagem_levantando2:hover img, .imagem_levantando3:hover img, .imagem_levantando4:hover img, .imagem_levantando5:hover img, #itensParaCompra:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.03);
+}
+
+body {
+    font-family: 'Raleway', Droid Sans, Lobster, Droid Serif;
+    max-width: 1280px;
+    margin: auto;
+}
+
+header a:hover {
+    color: #999 !important;
+}
+
+
+button:hover {
+    background-color: #999 !important;
+}
+
+
+header {
+    z-index: 10;
+    display: flex;
+}
+
+#navbar {
+    display: flex;
+}
+
+.hrLinha {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+#descricaoItensParaCompra {
+    overflow: hidden;
+    -webkit-transition: -webkit-transform .2s ease;
+    transition: transform .5s ease;
+}
+
+#descricaoItensParaCompra:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1256px) {
+    #navOptions {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    #inputSearch {
+        display: block;
+    }
+
+}
+
+@media (max-width: 680px) {
+    #inputSearch {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 800px) {
+    #logo {
+        width: 150px;
+    }
+}
+
+@media (max-width: 580px) {
+    #loginNav {
+        display: flex; 
+        flex-direction: row;
+        gap: 10px;
+    }
+
+}
+
+
+
